@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1DD5341D8E8E9B0032486C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD5331D8E8E9B0032486C /* main.m */; };
+		EF1DD5371D8E8E9B0032486C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD5361D8E8E9B0032486C /* AppDelegate.m */; };
+		EF1DD53A1D8E8E9B0032486C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD5391D8E8E9B0032486C /* ViewController.m */; };
+		EF1DD53D1D8E8E9B0032486C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1DD53B1D8E8E9B0032486C /* Main.storyboard */; };
+		EF1DD53F1D8E8E9B0032486C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1DD53E1D8E8E9B0032486C /* Assets.xcassets */; };
+		EF1DD5421D8E8E9B0032486C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1DD5401D8E8E9B0032486C /* LaunchScreen.storyboard */; };
+		EF1DD54D1D8E8E9B0032486C /* ZGCustomTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD54C1D8E8E9B0032486C /* ZGCustomTransitionTests.m */; };
+		EF1DD5581D8E8E9B0032486C /* ZGCustomTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD5571D8E8E9B0032486C /* ZGCustomTransitionUITests.m */; };
+		EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1DD5491D8E8E9B0032486C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1DD5271D8E8E9A0032486C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1DD52E1D8E8E9A0032486C;
+			remoteInfo = ZGCustomTransition;
+		};
+		EF1DD5541D8E8E9B0032486C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1DD5271D8E8E9A0032486C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1DD52E1D8E8E9A0032486C;
+			remoteInfo = ZGCustomTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1DD52F1D8E8E9A0032486C /* ZGCustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGCustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1DD5331D8E8E9B0032486C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1DD5351D8E8E9B0032486C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1DD5361D8E8E9B0032486C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1DD5381D8E8E9B0032486C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF1DD5391D8E8E9B0032486C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1DD53C1D8E8E9B0032486C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1DD53E1D8E8E9B0032486C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF1DD5411D8E8E9B0032486C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF1DD5431D8E8E9B0032486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1DD5481D8E8E9B0032486C /* ZGCustomTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGCustomTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1DD54C1D8E8E9B0032486C /* ZGCustomTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGCustomTransitionTests.m; sourceTree = "<group>"; };
+		EF1DD54E1D8E8E9B0032486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1DD5531D8E8E9B0032486C /* ZGCustomTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGCustomTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1DD5571D8E8E9B0032486C /* ZGCustomTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGCustomTransitionUITests.m; sourceTree = "<group>"; };
+		EF1DD5591D8E8E9B0032486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1DD5691D8E91E20032486C /* ZGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGNavigationController.h; sourceTree = "<group>"; };
+		EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1DD52C1D8E8E9A0032486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1DD5451D8E8E9B0032486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1DD5501D8E8E9B0032486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1DD5261D8E8E9A0032486C = {
+			isa = PBXGroup;
+			children = (
+				EF1DD5311D8E8E9B0032486C /* ZGCustomTransition */,
+				EF1DD54B1D8E8E9B0032486C /* ZGCustomTransitionTests */,
+				EF1DD5561D8E8E9B0032486C /* ZGCustomTransitionUITests */,
+				EF1DD5301D8E8E9A0032486C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1DD5301D8E8E9A0032486C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD52F1D8E8E9A0032486C /* ZGCustomTransition.app */,
+				EF1DD5481D8E8E9B0032486C /* ZGCustomTransitionTests.xctest */,
+				EF1DD5531D8E8E9B0032486C /* ZGCustomTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1DD5311D8E8E9B0032486C /* ZGCustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD5651D8E8ED10032486C /* ZGCustomTransition */,
+				EF1DD5351D8E8E9B0032486C /* AppDelegate.h */,
+				EF1DD5361D8E8E9B0032486C /* AppDelegate.m */,
+				EF1DD5381D8E8E9B0032486C /* ViewController.h */,
+				EF1DD5391D8E8E9B0032486C /* ViewController.m */,
+				EF1DD53B1D8E8E9B0032486C /* Main.storyboard */,
+				EF1DD53E1D8E8E9B0032486C /* Assets.xcassets */,
+				EF1DD5401D8E8E9B0032486C /* LaunchScreen.storyboard */,
+				EF1DD5431D8E8E9B0032486C /* Info.plist */,
+				EF1DD5321D8E8E9B0032486C /* Supporting Files */,
+			);
+			path = ZGCustomTransition;
+			sourceTree = "<group>";
+		};
+		EF1DD5321D8E8E9B0032486C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD5331D8E8E9B0032486C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1DD54B1D8E8E9B0032486C /* ZGCustomTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD54C1D8E8E9B0032486C /* ZGCustomTransitionTests.m */,
+				EF1DD54E1D8E8E9B0032486C /* Info.plist */,
+			);
+			path = ZGCustomTransitionTests;
+			sourceTree = "<group>";
+		};
+		EF1DD5561D8E8E9B0032486C /* ZGCustomTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD5571D8E8E9B0032486C /* ZGCustomTransitionUITests.m */,
+				EF1DD5591D8E8E9B0032486C /* Info.plist */,
+			);
+			path = ZGCustomTransitionUITests;
+			sourceTree = "<group>";
+		};
+		EF1DD5651D8E8ED10032486C /* ZGCustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD5661D8E8ED10032486C /* Controller */,
+				EF1DD5671D8E8ED10032486C /* Model */,
+				EF1DD5681D8E8ED10032486C /* View */,
+			);
+			path = ZGCustomTransition;
+			sourceTree = "<group>";
+		};
+		EF1DD5661D8E8ED10032486C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF1DD5691D8E91E20032486C /* ZGNavigationController.h */,
+				EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF1DD5671D8E8ED10032486C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1DD5681D8E8ED10032486C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1DD52E1D8E8E9A0032486C /* ZGCustomTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1DD55C1D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransition" */;
+			buildPhases = (
+				EF1DD52B1D8E8E9A0032486C /* Sources */,
+				EF1DD52C1D8E8E9A0032486C /* Frameworks */,
+				EF1DD52D1D8E8E9A0032486C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGCustomTransition;
+			productName = ZGCustomTransition;
+			productReference = EF1DD52F1D8E8E9A0032486C /* ZGCustomTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1DD5471D8E8E9B0032486C /* ZGCustomTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1DD55F1D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransitionTests" */;
+			buildPhases = (
+				EF1DD5441D8E8E9B0032486C /* Sources */,
+				EF1DD5451D8E8E9B0032486C /* Frameworks */,
+				EF1DD5461D8E8E9B0032486C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1DD54A1D8E8E9B0032486C /* PBXTargetDependency */,
+			);
+			name = ZGCustomTransitionTests;
+			productName = ZGCustomTransitionTests;
+			productReference = EF1DD5481D8E8E9B0032486C /* ZGCustomTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF1DD5521D8E8E9B0032486C /* ZGCustomTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1DD5621D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransitionUITests" */;
+			buildPhases = (
+				EF1DD54F1D8E8E9B0032486C /* Sources */,
+				EF1DD5501D8E8E9B0032486C /* Frameworks */,
+				EF1DD5511D8E8E9B0032486C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1DD5551D8E8E9B0032486C /* PBXTargetDependency */,
+			);
+			name = ZGCustomTransitionUITests;
+			productName = ZGCustomTransitionUITests;
+			productReference = EF1DD5531D8E8E9B0032486C /* ZGCustomTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1DD5271D8E8E9A0032486C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zong;
+				TargetAttributes = {
+					EF1DD52E1D8E8E9A0032486C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EF1DD5471D8E8E9B0032486C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF1DD52E1D8E8E9A0032486C;
+					};
+					EF1DD5521D8E8E9B0032486C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EF1DD52E1D8E8E9A0032486C;
+					};
+				};
+			};
+			buildConfigurationList = EF1DD52A1D8E8E9A0032486C /* Build configuration list for PBXProject "ZGCustomTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF1DD5261D8E8E9A0032486C;
+			productRefGroup = EF1DD5301D8E8E9A0032486C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1DD52E1D8E8E9A0032486C /* ZGCustomTransition */,
+				EF1DD5471D8E8E9B0032486C /* ZGCustomTransitionTests */,
+				EF1DD5521D8E8E9B0032486C /* ZGCustomTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1DD52D1D8E8E9A0032486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1DD5421D8E8E9B0032486C /* LaunchScreen.storyboard in Resources */,
+				EF1DD53F1D8E8E9B0032486C /* Assets.xcassets in Resources */,
+				EF1DD53D1D8E8E9B0032486C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1DD5461D8E8E9B0032486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1DD5511D8E8E9B0032486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1DD52B1D8E8E9A0032486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1DD53A1D8E8E9B0032486C /* ViewController.m in Sources */,
+				EF1DD5371D8E8E9B0032486C /* AppDelegate.m in Sources */,
+				EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */,
+				EF1DD5341D8E8E9B0032486C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1DD5441D8E8E9B0032486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1DD54D1D8E8E9B0032486C /* ZGCustomTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1DD54F1D8E8E9B0032486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1DD5581D8E8E9B0032486C /* ZGCustomTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1DD54A1D8E8E9B0032486C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1DD52E1D8E8E9A0032486C /* ZGCustomTransition */;
+			targetProxy = EF1DD5491D8E8E9B0032486C /* PBXContainerItemProxy */;
+		};
+		EF1DD5551D8E8E9B0032486C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1DD52E1D8E8E9A0032486C /* ZGCustomTransition */;
+			targetProxy = EF1DD5541D8E8E9B0032486C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1DD53B1D8E8E9B0032486C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1DD53C1D8E8E9B0032486C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1DD5401D8E8E9B0032486C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1DD5411D8E8E9B0032486C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1DD55A1D8E8E9B0032486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF1DD55B1D8E8E9B0032486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1DD55D1D8E8E9B0032486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGCustomTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGCustomTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1DD55E1D8E8E9B0032486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGCustomTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGCustomTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF1DD5601D8E8E9B0032486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGCustomTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGCustomTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGCustomTransition.app/ZGCustomTransition";
+			};
+			name = Debug;
+		};
+		EF1DD5611D8E8E9B0032486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGCustomTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGCustomTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGCustomTransition.app/ZGCustomTransition";
+			};
+			name = Release;
+		};
+		EF1DD5631D8E8E9B0032486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGCustomTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGCustomTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGCustomTransition;
+			};
+			name = Debug;
+		};
+		EF1DD5641D8E8E9B0032486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGCustomTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGCustomTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGCustomTransition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1DD52A1D8E8E9A0032486C /* Build configuration list for PBXProject "ZGCustomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1DD55A1D8E8E9B0032486C /* Debug */,
+				EF1DD55B1D8E8E9B0032486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1DD55C1D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1DD55D1D8E8E9B0032486C /* Debug */,
+				EF1DD55E1D8E8E9B0032486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1DD55F1D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1DD5601D8E8E9B0032486C /* Debug */,
+				EF1DD5611D8E8E9B0032486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF1DD5621D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1DD5631D8E8E9B0032486C /* Debug */,
+				EF1DD5641D8E8E9B0032486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1DD5271D8E8E9A0032486C /* Project object */;
+}

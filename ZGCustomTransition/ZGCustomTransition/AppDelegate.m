@@ -24,9 +24,12 @@
     
     ViewController *vc = [[ViewController alloc] init];
     vc.view.backgroundColor = [UIColor redColor];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
     ZGNavigationController *zgNavigationController = [[ZGNavigationController alloc] init];
-    [zgNavigationController addChildViewController:vc];
-    [zgNavigationController.view addSubview:vc.view];
+    [zgNavigationController addChildViewController:navigationController];
+    [zgNavigationController.view addSubview:navigationController.view];
     [self.window setRootViewController:zgNavigationController];
     [self.window makeKeyAndVisible];
     return YES;

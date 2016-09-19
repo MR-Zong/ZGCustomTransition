@@ -40,12 +40,31 @@ static ZGNavigationController *_shareNavigationController_;
     [self.view addSubview:toVC.view];
     [toVC willMoveToParentViewController:self];
     
-    [self transitionFromViewController:fromVC toViewController:toVC duration:0.3 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+    [self transitionFromViewController:fromVC toViewController:toVC duration:1 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
         ;;
     } completion:^(BOOL finished) {
-//        [fromVC.view removeFromSuperview];
-//        [fromVC removeFromParentViewController];
+        [fromVC.view removeFromSuperview];
         [toVC didMoveToParentViewController:self];
+    }];
+}
+
+
+- (void)popViewController
+{
+    [self popFromViewController:self.childViewControllers.lastObject toViewController:self.childViewControllers[self.childViewControllers.count - 2]];
+}
+
+- (void)popFromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC
+{
+    [fromVC willMoveToParentViewController:nil];
+    [self.view addSubview:toVC.view];
+    
+    [self transitionFromViewController:fromVC toViewController:toVC duration:1 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+        ;;
+    } completion:^(BOOL finished) {
+        [fromVC.view removeFromSuperview];
+        [fromVC removeFromParentViewController];
+        [fromVC didMoveToParentViewController:nil];
     }];
 }
 

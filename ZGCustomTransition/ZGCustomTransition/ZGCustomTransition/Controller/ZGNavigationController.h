@@ -13,5 +13,7 @@
 + (instancetype)shareNavigationController;
 
 - (void)pushFromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC;
+- (void)popViewController;
+- (void)popFromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC;
 
 @end

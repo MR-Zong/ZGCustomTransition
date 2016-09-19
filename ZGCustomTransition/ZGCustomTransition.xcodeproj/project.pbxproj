@@ -16,6 +16,7 @@
 		EF1DD54D1D8E8E9B0032486C /* ZGCustomTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD54C1D8E8E9B0032486C /* ZGCustomTransitionTests.m */; };
 		EF1DD5581D8E8E9B0032486C /* ZGCustomTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD5571D8E8E9B0032486C /* ZGCustomTransitionUITests.m */; };
 		EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */; };
+		EF363A2D1D8F89000058F40F /* ZGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF363A2C1D8F89000058F40F /* ZGTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		EF1DD5591D8E8E9B0032486C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF1DD5691D8E91E20032486C /* ZGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGNavigationController.h; sourceTree = "<group>"; };
 		EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationController.m; sourceTree = "<group>"; };
+		EF363A2B1D8F89000058F40F /* ZGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTestViewController.h; sourceTree = "<group>"; };
+		EF363A2C1D8F89000058F40F /* ZGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				EF1DD5331D8E8E9B0032486C /* main.m */,
+				EF363A2B1D8F89000058F40F /* ZGTestViewController.h */,
+				EF363A2C1D8F89000058F40F /* ZGTestViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 			files = (
 				EF1DD53A1D8E8E9B0032486C /* ViewController.m in Sources */,
 				EF1DD5371D8E8E9B0032486C /* AppDelegate.m in Sources */,
+				EF363A2D1D8F89000058F40F /* ZGTestViewController.m in Sources */,
 				EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */,
 				EF1DD5341D8E8E9B0032486C /* main.m in Sources */,
 			);
@@ -538,6 +544,7 @@
 				EF1DD55E1D8E8E9B0032486C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF1DD55F1D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransitionTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +553,7 @@
 				EF1DD5611D8E8E9B0032486C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF1DD5621D8E8E9B0032486C /* Build configuration list for PBXNativeTarget "ZGCustomTransitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +562,7 @@
 				EF1DD5641D8E8E9B0032486C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

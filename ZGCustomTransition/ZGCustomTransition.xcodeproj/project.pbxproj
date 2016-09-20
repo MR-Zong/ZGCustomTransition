@@ -17,6 +17,8 @@
 		EF1DD5581D8E8E9B0032486C /* ZGCustomTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD5571D8E8E9B0032486C /* ZGCustomTransitionUITests.m */; };
 		EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */; };
 		EF363A2D1D8F89000058F40F /* ZGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF363A2C1D8F89000058F40F /* ZGTestViewController.m */; };
+		EF40525E1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EF40525D1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m */; };
+		EF4052611D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4052601D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGNavigationController.m; sourceTree = "<group>"; };
 		EF363A2B1D8F89000058F40F /* ZGTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTestViewController.h; sourceTree = "<group>"; };
 		EF363A2C1D8F89000058F40F /* ZGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTestViewController.m; sourceTree = "<group>"; };
+		EF40525C1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
+		EF40525D1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGViewControllerAnimatedTransitioning.m; sourceTree = "<group>"; };
+		EF40525F1D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTestAnimatedTransitioningViewController.h; sourceTree = "<group>"; };
+		EF4052601D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTestAnimatedTransitioningViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,8 @@
 				EF1DD5331D8E8E9B0032486C /* main.m */,
 				EF363A2B1D8F89000058F40F /* ZGTestViewController.h */,
 				EF363A2C1D8F89000058F40F /* ZGTestViewController.m */,
+				EF40525F1D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.h */,
+				EF4052601D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,6 +179,8 @@
 		EF1DD5671D8E8ED10032486C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EF40525C1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.h */,
+				EF40525D1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -313,9 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1DD53A1D8E8E9B0032486C /* ViewController.m in Sources */,
+				EF4052611D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m in Sources */,
 				EF1DD5371D8E8E9B0032486C /* AppDelegate.m in Sources */,
 				EF363A2D1D8F89000058F40F /* ZGTestViewController.m in Sources */,
 				EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */,
+				EF40525E1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m in Sources */,
 				EF1DD5341D8E8E9B0032486C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,10 +13,12 @@
 
 #import "ZGViewControllerAnimatedTransitioning.h"
 #import "ZGTestAnimatedTransitioningViewController.h"
+#import "ZGViewControllerDismissAnimatedTransitioning.h"
 
 @interface ViewController () <UIViewControllerTransitioningDelegate>
 
 @property (nonatomic, strong) ZGViewControllerAnimatedTransitioning *animatedTransitioning;
+@property (nonatomic, strong) ZGViewControllerDismissAnimatedTransitioning *dismissAanimatedTransitioning;
 
 @end
 
@@ -48,8 +50,7 @@
     btn3.frame = CGRectMake(CGRectGetMaxX(btn1.frame) + 10, 150, 100, 40);
     [btn3 addTarget:self action:@selector(didBtn3:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn3];
-    
-    
+
 }
 
 
@@ -66,6 +67,8 @@
 {
     ZGTestAnimatedTransitioningViewController *vc = [[ZGTestAnimatedTransitioningViewController alloc] init];
     vc.transitioningDelegate = self;
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//    nav.transitioningDelegate = self;
 //     UINavigationController转场
     [self presentViewController:vc animated:YES completion:nil];
 }
@@ -87,7 +90,7 @@
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
-    return self.animatedTransitioning;
+    return self.dismissAanimatedTransitioning;
 }
 
 
@@ -98,6 +101,14 @@
         _animatedTransitioning = [[ZGViewControllerAnimatedTransitioning alloc] init];
     }
     return _animatedTransitioning;
+}
+
+- (ZGViewControllerDismissAnimatedTransitioning *)dismissAanimatedTransitioning
+{
+    if (!_dismissAanimatedTransitioning) {
+        _dismissAanimatedTransitioning = [[ZGViewControllerDismissAnimatedTransitioning alloc] init];
+    }
+    return _dismissAanimatedTransitioning;
 }
 
 @end

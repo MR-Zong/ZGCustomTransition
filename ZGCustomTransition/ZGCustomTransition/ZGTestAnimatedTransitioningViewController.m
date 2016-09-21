@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor purpleColor];
-    
+    self.title = @"宗";
     [self setupViews];
 }
 

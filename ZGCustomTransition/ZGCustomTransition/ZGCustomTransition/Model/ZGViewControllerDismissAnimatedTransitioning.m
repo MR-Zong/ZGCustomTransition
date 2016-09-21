@@ -33,17 +33,23 @@
     
     // 4. Do animate now
     NSTimeInterval duration = [self transitionDuration:transitionContext];
-    [UIView animateWithDuration:duration
-                          delay:0.0
-         usingSpringWithDamping:0.6
-          initialSpringVelocity:0.0
-                        options:UIViewAnimationOptionCurveLinear
-                     animations:^{
-                         fromVC.view.frame = CGRectOffset(fromVCFinalFrame, 0, fromVCFinalFrame.size.height);
-                     } completion:^(BOOL finished) {
-                         // 5. Tell context that we completed.
-                         [transitionContext completeTransition:YES];
-                     }];
+//    [UIView animateWithDuration:duration
+//                          delay:0.0
+//         usingSpringWithDamping:0.6
+//          initialSpringVelocity:0.0
+//                        options:UIViewAnimationOptionCurveLinear
+//                     animations:^{
+//                         fromVC.view.frame = CGRectOffset(fromVCFinalFrame, 0, fromVCFinalFrame.size.height);
+//                     } completion:^(BOOL finished) {
+//                         // 5. Tell context that we completed.
+//                         [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
+//                     }];
+    [UIView animateWithDuration:duration animations:^{
+          fromVC.view.frame = CGRectOffset(fromVCFinalFrame, 0, fromVCFinalFrame.size.height);
+    } completion:^(BOOL finished) {
+        // 5. Tell context that we completed.
+        [transitionContext completeTransition:!transitionContext.transitionWasCancelled];
+    }];
 }
 
 @end

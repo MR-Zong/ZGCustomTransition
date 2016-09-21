@@ -23,7 +23,7 @@
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(10, 150, 100, 40);
-    [btn setTitle:@"close" forState:UIControlStateNormal];
+    [btn setTitle:@"dismiss" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(didBtn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 }

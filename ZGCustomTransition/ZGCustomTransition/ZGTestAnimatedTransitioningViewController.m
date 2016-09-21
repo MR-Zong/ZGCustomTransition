@@ -26,7 +26,7 @@
 - (void)setupViews
 {
     UIButton *closeButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [closeButton setTitle:@"close" forState:UIControlStateNormal];
+    [closeButton setTitle:@"dismiss" forState:UIControlStateNormal];
     closeButton.frame = CGRectMake(10, 150, 100, 40);
     [closeButton addTarget:self action:@selector(didCloseButton:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:closeButton];

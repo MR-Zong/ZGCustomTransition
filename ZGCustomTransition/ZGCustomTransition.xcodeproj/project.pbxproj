@@ -18,6 +18,8 @@
 		EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1DD56A1D8E91E20032486C /* ZGNavigationController.m */; };
 		EF363A2D1D8F89000058F40F /* ZGTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF363A2C1D8F89000058F40F /* ZGTestViewController.m */; };
 		EF3EFFE71D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3EFFE61D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.m */; };
+		EF3EFFEA1D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3EFFE91D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.m */; };
+		EF3EFFED1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3EFFEC1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.m */; };
 		EF40525E1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = EF40525D1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m */; };
 		EF4052611D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4052601D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m */; };
 /* End PBXBuildFile section */
@@ -62,6 +64,10 @@
 		EF363A2C1D8F89000058F40F /* ZGTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTestViewController.m; sourceTree = "<group>"; };
 		EF3EFFE51D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGViewControllerDismissAnimatedTransitioning.h; sourceTree = "<group>"; };
 		EF3EFFE61D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGViewControllerDismissAnimatedTransitioning.m; sourceTree = "<group>"; };
+		EF3EFFE81D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGViewControllerInteractiveTransitioning.h; sourceTree = "<group>"; };
+		EF3EFFE91D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGViewControllerInteractiveTransitioning.m; sourceTree = "<group>"; };
+		EF3EFFEB1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTestInteractiveTransitioningViewController.h; sourceTree = "<group>"; };
+		EF3EFFEC1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGTestInteractiveTransitioningViewController.m; sourceTree = "<group>"; };
 		EF40525C1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGViewControllerAnimatedTransitioning.h; sourceTree = "<group>"; };
 		EF40525D1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGViewControllerAnimatedTransitioning.m; sourceTree = "<group>"; };
 		EF40525F1D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGTestAnimatedTransitioningViewController.h; sourceTree = "<group>"; };
@@ -138,6 +144,8 @@
 				EF363A2C1D8F89000058F40F /* ZGTestViewController.m */,
 				EF40525F1D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.h */,
 				EF4052601D90D62100FC70B9 /* ZGTestAnimatedTransitioningViewController.m */,
+				EF3EFFEB1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.h */,
+				EF3EFFEC1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,6 +194,8 @@
 				EF40525D1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m */,
 				EF3EFFE51D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.h */,
 				EF3EFFE61D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.m */,
+				EF3EFFE81D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.h */,
+				EF3EFFE91D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -333,7 +343,9 @@
 				EF363A2D1D8F89000058F40F /* ZGTestViewController.m in Sources */,
 				EF1DD56B1D8E91E20032486C /* ZGNavigationController.m in Sources */,
 				EF40525E1D90D2A500FC70B9 /* ZGViewControllerAnimatedTransitioning.m in Sources */,
+				EF3EFFED1D92659C00AA4E04 /* ZGTestInteractiveTransitioningViewController.m in Sources */,
 				EF3EFFE71D92319A00AA4E04 /* ZGViewControllerDismissAnimatedTransitioning.m in Sources */,
+				EF3EFFEA1D92600300AA4E04 /* ZGViewControllerInteractiveTransitioning.m in Sources */,
 				EF1DD5341D8E8E9B0032486C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
